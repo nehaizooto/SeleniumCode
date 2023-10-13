@@ -28,7 +28,7 @@ public class SignupClass {
 			driver.findElement(By.id("mat-input-0")).sendKeys("");
 			Thread.sleep(1000);
 			driver.findElement(By.id("mat-input-1")).click();
-			driver.findElement(By.id("mat-input-1")).sendKeys("dummyizoho1@izooto.com");
+			driver.findElement(By.id("mat-input-1")).sendKeys("dummyizohooss1@izooto.com");
 			Thread.sleep(1000);
 			driver.findElement(By.id("mat-input-2")).click();
 			driver.findElement(By.id("mat-input-2")).sendKeys("Izooto@123");
@@ -98,7 +98,7 @@ public class SignupClass {
 			System.out.println("Test case 8 passed. Email Id is already used.");
 			
 			driver.findElement(By.id("mat-input-1")).clear();
-			driver.findElement(By.id("mat-input-1")).sendKeys("dummyizollo1@izooto.com"); //need to change all time
+			driver.findElement(By.id("mat-input-1")).sendKeys("dummyizolloso1@izooto.com"); //need to change all time
 			
    // 3 - Password field test cases validations :
 		    
@@ -260,7 +260,7 @@ public class SignupClass {
 		    driver.findElement(By.xpath("//iz-input-website-url[@id='iz-input-website-url-component-0']/input[@type='url']"))
 			.clear();
             driver.findElement(By.xpath("//iz-input-website-url[@id='iz-input-website-url-component-0']/input[@type='url']"))
-				.sendKeys("https://dummyizollo1.com"); //need to change all time
+				.sendKeys("https://dummyizolloss1.com");              //need to change all time
             
             //To signup on panel : 
             Thread.sleep(2000);

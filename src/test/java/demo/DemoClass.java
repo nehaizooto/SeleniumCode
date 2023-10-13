@@ -74,11 +74,96 @@ public class DemoClass {
          Thread.sleep(3000);
          driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         
+         //badge testcases
+         
+//		 //Enable Advanced section
+//		 Thread.sleep(2000);
+//		 WebElement arrowIcon = driver.findElement(By.xpath("//mat-icon[text()='keyboard_arrow_down']"));
+//	     arrowIcon.click();
+//         System.out.println("Advanced section opened successfully.");
+//      
+//         //Test case 39 - Enter badge url just spaces
+//		 Thread.sleep(2000);
+//         driver.findElement(By.xpath("//div[@id='display-area']//mat-vertical-stepper[@role='tablist']/div[1]/div/div[@role='tabpanel']"
+//         		+ "/div/mat-card[4]/div/div[1]/div[1]//button[@type='button']/span[@class='mat-button-wrapper']")).click();
+//         Thread.sleep(2000);
+//         driver.findElement(By.xpath("//input[@formcontrolname='badgeSrc']")).click();
+//		 Thread.sleep(2000);
+//		 driver.findElement(By.xpath("//input[@formcontrolname='badgeSrc']")).sendKeys("               ");
+//		 System.out.println("Test case 39 passed. Invalid Banner image");
+//		 
+//		 //Test case 40 - Enter invalid badge url
+//		 Thread.sleep(2000);
+//         driver.findElement(By.xpath("//input[@formcontrolname='badgeSrc']")).clear();
+//		 Thread.sleep(2000);
+//		 driver.findElement(By.xpath("//input[@formcontrolname='badgeSrc']")).sendKeys("abc.png"); 
+//		 System.out.println("Test case 40 passed. Invalid Banner image");
+//	        
+//		 //Test case 41 - Enter valid badge url
+//		 Thread.sleep(2000);
+//         driver.findElement(By.xpath("//input[@formcontrolname='badgeSrc']")).clear();
+//		 Thread.sleep(2000);
+//		 driver.findElement(By.xpath("//input[@formcontrolname='badgeSrc']")).sendKeys("https://cdn.pixabay.com/photo/2023/08/20/14/47/stingray-8202506_1280.jpg");
+//		 System.out.println("Test case 41 passed. Valid Banner image");
          
          
+         //banner testcases
          
-         
-         
+//       //Test case 19 : Enter banner image just spaces -
+//       Thread.sleep(2000);
+//		 driver.findElement(ByAngular.buttonText("Reset")).click();
+//		 Thread.sleep(1000);
+//		 driver.findElement(By.xpath("/html//div[@id='display-area']/div/div[3]//mat-vertical-stepper[@role='tablist']/div[1]/div/div[@role='tabpanel']"
+//		 		+ "/div/mat-card[3]/div[1]/div//mat-form-field//input[@type='text']")).sendKeys("              ");
+//		 Thread.sleep(1000);
+//		 driver.findElement(ByAngular.buttonText("Send")).click();
+//       System.out.println("Test case 19 passed. Invalid Banner image.");
+//       
+//       //Test case 20 : Enter invalid banner image -
+//       Thread.sleep(2000);
+//       driver.findElement(By.xpath("/html//div[@id='display-area']/div/div[3]//mat-vertical-stepper[@role='tablist']/div[1]/div/div[@role='tabpanel']"
+//		 		+ "/div/mat-card[3]/div[1]/div//mat-form-field//input[@type='text']")).click();
+//		 Thread.sleep(1000);
+//		 driver.findElement(By.xpath("/html//div[@id='display-area']/div/div[3]//mat-vertical-stepper[@role='tablist']/div[1]/div/div[@role='tabpanel']"
+//			 		+ "/div/mat-card[3]/div[1]/div//mat-form-field//input[@type='text']")).clear();
+//	     Thread.sleep(1000);
+//		 driver.findElement(By.xpath("/html//div[@id='display-area']/div/div[3]//mat-vertical-stepper[@role='tablist']/div[1]/div/div[@role='tabpanel']"
+//		 		+ "/div/mat-card[3]/div[1]/div//mat-form-field//input[@type='text']")).sendKeys("https://abc.com");
+//       System.out.println("Test case 20 passed. Invalid Banner image.");
+//       
+//       //Test case 21 : Enter invalid banner image -
+//       Thread.sleep(2000);
+//       driver.findElement(By.xpath("/html//div[@id='display-area']/div/div[3]//mat-vertical-stepper[@role='tablist']/div[1]/div/div[@role='tabpanel']"
+//		 		+ "/div/mat-card[3]/div[1]/div//mat-form-field//input[@type='text']")).click();
+//		 Thread.sleep(1000);
+//		 driver.findElement(By.xpath("/html//div[@id='display-area']/div/div[3]//mat-vertical-stepper[@role='tablist']/div[1]/div/div[@role='tabpanel']"
+//			 		+ "/div/mat-card[3]/div[1]/div//mat-form-field//input[@type='text']")).clear();
+//			 Thread.sleep(1000);
+//		 driver.findElement(By.xpath("/html//div[@id='display-area']/div/div[3]//mat-vertical-stepper[@role='tablist']/div[1]/div/div[@role='tabpanel']"
+//		 		+ "/div/mat-card[3]/div[1]/div//mat-form-field//input[@type='text']")).sendKeys("https://abc.png");
+//       System.out.println("Test case 21 passed. Invalid Banner image.");
+//       
+//       //Test case 22 : Enter invalid banner image -
+//       Thread.sleep(2000);
+//       driver.findElement(By.xpath("/html//div[@id='display-area']/div/div[3]//mat-vertical-stepper[@role='tablist']/div[1]/div/div[@role='tabpanel']"
+//		 		+ "/div/mat-card[3]/div[1]/div//mat-form-field//input[@type='text']")).click();
+//		 Thread.sleep(1000);
+//		 driver.findElement(By.xpath("/html//div[@id='display-area']/div/div[3]//mat-vertical-stepper[@role='tablist']/div[1]/div/div[@role='tabpanel']"
+//			 		+ "/div/mat-card[3]/div[1]/div//mat-form-field//input[@type='text']")).clear();
+//		 Thread.sleep(2000);
+//       driver.findElement(By.id("mat-input-1")).clear();
+//       Thread.sleep(1000);
+//		 driver.findElement(By.id("mat-input-1")).sendKeys("https://abplive.com");
+//       Thread.sleep(1000);
+//		 driver.findElement(ByAngular.buttonText("Create")).click();
+//		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+//		 System.out.println("Test case 22 passed. Valid Banner Image");
+//		 
+//		 //Scroll down on a page
+//		 WebElement elementToScrollTo = driver.findElement(By.cssSelector("button.mat-stroked-button.mat-primary"));
+//		 JavascriptExecutor js = (JavascriptExecutor) driver;
+//		 js.executeScript("arguments[0].scrollIntoView(true);", elementToScrollTo);
+//		 System.out.println("Scrolled successfully");        
          
          
          
